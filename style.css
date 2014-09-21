@@ -20,6 +20,10 @@ body {
 			    width: 1.2em;
 			   
 			}
+
+			video {
+				padding-bottom: 10px;
+			}
 			label:before {
 			    content: "★";
 			    position: relative;
