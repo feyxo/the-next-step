@@ -1,0 +1,78 @@
+/* Put your styles here */
+
+body {
+				font-family: "Roboto", helvetica, arial, sans-serif;
+				margin: 20px;
+			}
+			.title {
+				color: rgba(116, 40, 109, 1);
+			}
+			.content {
+				width: 800px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			label {
+			    color: rgba(116, 40, 109, 1);
+			    text-indent: -2000em;
+			    display: inline-block;
+			    font-size: 2.5em;
+			    width: 1.2em;
+			   
+			}
+			label:before {
+			    content: "★";
+			    position: relative;
+			    left: 2000em;
+			}
+			input:checked ~ label {
+			    color: Black;
+			}
+			input {
+			    display: none;
+			}
+
+			
+
+			div.rating:hover label {
+			    color: rgba(116, 40, 109, 1);
+			}
+			div.rating label:hover ~ label {
+			    color: Black;
+			}
+
+			button {
+				width: 150px;
+				height: 50px;
+				background: #F7F7F7;
+				border: 1px solid #eee;
+				font-weight: bold;
+				font-size: 20px;
+				padding: 10px;
+				margin-left: 50px;
+				
+				text-align: center;
+				text-transform: uppercase;
+				display: block;
+				
+			}
+
+			button:hover {
+				color: rgba(116, 40, 109, 1);
+				background: #fbfbfb;
+			}
+
+			.left {
+				float: left;
+				display: inline-block;
+				width: 400px;
+			}
+
+			.right {
+				width: 400px;
+				display: inline-block;
+			}
+
+			.rating-box {
+				height: 240px;
+			}
